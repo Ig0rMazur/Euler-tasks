@@ -1,3 +1,4 @@
+//O(2N)
 function sum(number){
   return number.toString().split('').reduce((acc, item) => acc += +item, 0);
 } 
